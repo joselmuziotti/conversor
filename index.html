@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/053908f806.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Conversor Universal</title>
+  </head>
+  <body>
+    <main>
+      <div class="title">
+        <a href="aluracursos.com" id="aLogo" target="_blank"
+          ><img src="img/aluraoracle (1).png" alt="Logo Alura+Oracle" id="logo"
+        /></a>
+      </div>
+      <h1 class="conver">Conversor</h1>
+      <br />
+      <h1 class="uni">Universal</h1>
+      <section class="principal">
+        <form class="caja">
+          <div class="inputs">
+            <input
+              type="number"
+              id="monto"
+              inputmode="numeric"
+              class="no-spin"
+              placeholder="$0.1"
+            />
+            <select id="opciones">
+              <option value="USD">USD</option>
+              <option value="CLP">CLP</option>
+              <option value="ARS">ARS</option>
+              <option value="MXN">MXN</option>
+              <option value="COP">COP</option>
+              <option value="BRL">BRL</option>
+              <option value="EUR">EUR</option>
+              <option value="VES">VES</option>
+            </select>
+          </div>
+          <div class="inputs">
+            <input
+              type="number"
+              inputmode="numeric"
+              class="no-spin"
+              placeholder="$0.1"
+            />
+            <select id="opciones">
+              <option value="USD">USD</option>
+              <option value="CLP">CLP</option>
+              <option value="ARS">ARS</option>
+              <option value="MXN">MXN</option>
+              <option value="COP">COP</option>
+              <option value="BRL">BRL</option>
+              <option value="EUR">EUR</option>
+              <option value="VES">VES</option>
+            </select>
+          </div>
+          <div class="inputs">
+            <input
+              type="number"
+              value=""
+              id="resultados"
+              class="no-spin"
+              readonly
+              placeholder="resultado"
+            />
+          </div>
+          <div class="btnConvertir">
+            <button class="btn" onclick="btnConvertir()">Convertir</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <h2>&copy Copyright - Jose Luis Muziotti 2024</h2>
+      <div class="rrss">
+        <a
+          href="https://www.linkedin.com/in/joselmuziotti/"
+          id="linked"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/joselmuziotti" id="git" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://discordapp.com/users/joselmuziotti"
+          id="discord"
+          target="_blank"
+          ><i class="fa-brands fa-discord"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>
