@@ -1,0 +1,79 @@
+.caja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    margin: 3.5rem 3rem;
+    position: relative;
+    gap: 0.5em;
+}
+
+.caja::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--white);
+    opacity: 0.3;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.input-style {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid var(--grey);
+    border-radius: 10px;
+    padding: 0.2em 1em;
+    outline: none;
+    width: 100%;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input-style::placeholder{
+    font-size: 0.8em;
+    padding: .4em;
+    color: var(--grey);
+}
+
+.inputs {
+    position: relative;
+    width: 80%;
+    text-align: center;
+}
+
+.opciones {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    font-size: 0.7em;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.btn{
+    background-color: var(--purple-ligth);
+    border: 1px solid var(--grey);
+    padding: 0.5em;
+    border-radius: 15px;
+    color: var(--white);
+}
+
+.btn:hover {
+    background-color: var(--purple);
+    border: 1px solid var(--white);
+}
+
+.input-temp{
+    width: 6rem;
+}

@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+  height: 10vh;
+}
+
+.logo-header img {
+  width: 30vw;
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.li-header {
+  display: flex;
+  color: var(--white);
+  font-size: .5rem;
+}
+
+.list-header a {
+  color: var(--white);
+  text-decoration: none;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}

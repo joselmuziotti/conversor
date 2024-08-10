@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white-opa);
+    border-radius: 10px 10px 0 0;
+    align-items: center;
+    padding: 1rem;
+}
+
+footer h2{
+    font-size: 0.7rem;
+    color: var(--white);
+}
+
+.rrss {
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem 0 0 0;
+}
+
+.rrss a{
+    text-decoration: none;
+    color: var(--white);
+}
