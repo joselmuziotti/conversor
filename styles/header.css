@@ -2,12 +2,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 1rem;
+  margin: 0 2vh;
   height: 10vh;
 }
 
 .logo-header img {
-  width: 30vw;
+  width: 25vw;
 }
 
 .list-header {
@@ -19,7 +19,16 @@ header {
 .li-header {
   display: flex;
   color: var(--white);
-  font-size: .5rem;
+  font-size: 2vw;
+  border: .5px solid var(--white-opa);
+  border-radius: 4px;
+  padding: 5px 20px;
+
+}
+
+.li-header:hover {
+  background-color: var(--white-opa);
+  border-color: var(--white);
 }
 
 .list-header a {
