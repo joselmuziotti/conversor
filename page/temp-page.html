@@ -34,48 +34,27 @@
       </div>
     </header>
 
-    <main>
+    <h1 class="title">Conversor <span class="title-bold">Universal</span></h1>
 
-      <h1 class="title">Conversor <span class="title-bold">Universal</span></h1>
+    <main>
 
       <section class="principal">
         
         <form class="caja">
 
-          <div class="inputs input-1">
-
-            <input type="number" id="monto" inputmode="numeric" class="input-style" placeholder="Temp..." />
-
-            <select class="opciones" id="options">
-              <option value="celsius">C°</option>
-              <option value="fahrenheit">F°</option>
-              <option value="kelvin">K°</option>
-            </select>
-
-          </div>
-
-          <div class="inputs input-2">
-
-            <input type="number" inputmode="numeric" class="input-style" placeholder="Temp..." />
-
-            <select class="opciones" id="options">
-              <option value="celsius">C°</option>
-              <option value="fahrenheit">F°</option>
-              <option value="kelvin">K°</option>
-            </select>
-
-          </div>
-
-          <div class="inputs input-3">
-
-            <input type="number" id="resultados" class="input-style" readonly placeholder="Total..." />
-
-          </div>
-
-          <div class="btn-convertir input-4">
-
-            <button class="btn" onclick="btnConvertir()">Convertir</button>
-
+          <div class="inputs">
+            <div class="input-group">
+              <input type="number" id="amount" class="input-style" placeholder="TEMPERATURA" />
+              <select id="currencyFrom" class="opciones">
+                <!-- Opciones se llenarán con JavaScript -->
+              </select>
+            </div>
+            <div class="input-group">
+              <input type="number" id="convertedAmount" class="input-style" placeholder="CONVERTIDO" readonly />
+              <select id="currencyTo" class="opciones">
+                <!-- Opciones se llenarán con JavaScript -->
+              </select>
+            </div>
           </div>
 
         </form>
@@ -108,6 +87,6 @@
 
   </body>
 
-  <script src="app.js"></script>
+  <script src="/app.js"></script>
   
 </html>
