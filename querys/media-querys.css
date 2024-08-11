@@ -1,3 +1,19 @@
+@media (min-width: 320px) {
+    .title-bold{
+        font-size: 1.4em;
+    }
+
+    main{
+        margin: 4em 0;
+    }
+
+    .caja {
+        margin: 1.5rem 1rem;
+        gap: 2em;
+    }
+
+}
+
 @media (min-width: 600px) {
     header {
         margin: 0 2rem;
