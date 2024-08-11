@@ -1,57 +1,16 @@
-@media (min-width: 320px) {
-    .title-bold{
-        font-size: 1.4em;
-    }
-
-    main{
-        margin: 4em 0;
-    }
-
-    .caja {
-        margin: 1.5rem 1rem;
-        gap: 2em;
-    }
-
-}
-
 @media (min-width: 600px) {
-    header {
-        margin: 0 2rem;
-        height: 17vh;
-    }
-
     .li-header {
         font-size: 0.8rem;
     }
 
+    .title{
+        font-size: 1.5em;
+    }
+
     .caja {
-        flex-direction: row;
-        flex-wrap: wrap;
         padding: 3em;
-        margin: 4.5rem 4rem;
+        width: 60%;
         gap: 1em;
-    }
-
-    .input-1, .input-2{
-        flex: 1 1 45%;
-    }
-
-    .input-3, .input-4{
-        flex: 1 1 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .input-3 {
-        margin: 0 10rem;
-    }
-
-    .input-4 {
-        margin: 0 15rem;
-    }
-
-    .input-style {
-        padding: 0.8em 1.3em;
     }
 
     .input-style::placeholder{
@@ -63,23 +22,13 @@
         top: 10px;
     }
 
-    .btn{
-        padding: 0.8rem;
-        font-size: 1rem;
-    }
-
     .input-temp{
         width: 15rem;
     }
 
 }
 
-@media (min-width: 1024px) {
-    header {
-        margin: 0 2rem;
-        height: 17vh;
-    }
-
+@media (min-width: 1024px){
     .li-header {
         font-size: 1rem;
     }
@@ -88,26 +37,15 @@
         font-size: 2rem;
     }
 
-    .caja {
-        margin: 4.5rem 8rem;
-        gap: 2em;
-    }
-
-    .input-3 {
-        margin: 0 10rem;
-    }
 
     .input-style {
         padding: 1em 1.5em;
-    }
-
-    .input-style::placeholder{
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     .opciones {
         font-size: 1em;
-        top: 12px;
+        top: 15px;
     }
 
     .input-temp{
@@ -116,47 +54,17 @@
 
 }
 
-@media (min-width: 1044px) {
+@media (min-width: 1440px) {
     .li-header {
         font-size: 1.5rem;
     }
 
-    .title {
-        font-size: 3rem;
-    }
-
-    .caja {
-        margin: 4.5rem 15rem;
-        gap: 3em;
-    }
-
-    .input-3 {
-        margin: 0 15rem;
-    }
-
-    .input-style {
-        padding: 1.5em 1.5em;
-    }
-
-    .input-4 {
-        margin: 0 20rem;
-    }
-
-    .input-style::placeholder{
-        font-size: 1.5em;
-    }
-
     .opciones {
         font-size: 1.5em;
+        top: 20px;
     }
 
     .input-temp{
         width: 30rem;
     }
-
-    .btn{
-        padding: 0.8rem;
-        font-size: 1rem;
-    }
-
 }
