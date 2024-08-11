@@ -1,8 +1,8 @@
 .principal{
-    margin: 5% 0 15% 0;
+    margin: 15vh 0 20vh 0;
     display: flex;
     justify-content: center;
-    height: 40vh;
+    height: auto;
 }
 
 .caja {
@@ -10,8 +10,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2em 0;
+    padding: 2.5em 0;
     width: 80%;
+    height: 25vh;
     position: relative;
 }
 
@@ -45,7 +46,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .input-style::placeholder{
-    font-size: 0.8em;
+    font-size: 2vh;
     padding: .4em;
     color: var(--grey);
 }
@@ -66,12 +67,9 @@ input[type="number"]::-webkit-inner-spin-button {
     background-color: transparent;
     border: none;
     position: absolute;
-    top: 12px;
+    top: 30%;
     right: 5px;
     outline: none;
     cursor: pointer;
-}
-
-.input-temp{
-    width: 6rem;
+    font-size: 2vh;
 }

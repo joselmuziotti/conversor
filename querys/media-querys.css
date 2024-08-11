@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+@media (min-width: 600px){
     .li-header {
         font-size: 0.8rem;
     }
@@ -19,13 +19,7 @@
 
     .opciones {
         font-size: 0.9em;
-        top: 10px;
     }
-
-    .input-temp{
-        width: 15rem;
-    }
-
 }
 
 @media (min-width: 1024px){
